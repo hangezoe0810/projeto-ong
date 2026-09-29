@@ -31,20 +31,21 @@
     <header id="topo">
       <h1 id="nome-pagina">Cadastro</h1>
 
-      <nav>
+      <nav aria-label="Navegação principal">
         <a href="#inicio">Início</a>
         <a href="#projetos">Projetos</a>
         <a href="#cadastro">Cadastro</a>
       </nav>
 
       <p id="frase">Juntos podemos transformar vidas.</p>
+      <button type="button" id="alto-contraste">Alto contraste</button>
     </header>
     <main>
       <div id="conteudo">
         <section>
           <h2>Preencha seus dados</h2>
 
-          <form>
+          <form aria-label="Formulário de cadastro">
             <fieldset>
               <legend>Dados pessoais</legend>
               <label for="nome">Nome completo</label>
@@ -152,7 +153,7 @@
                 placeholder="Escreva aqui sua observação ou mensagem para nossos voluntários."
               >
               </textarea>
-              <div id="mensagem-formulario"></div>
+              <div id="mensagem-formulario" aria-live="polite"></div>
 
               <button type="submit">Enviar cadastro</button>
             </fieldset>
@@ -172,24 +173,26 @@
       <h3>Precisa de ajuda?</h3>
       <p>Entre em contato conosco através de nossas redes sociais:</p>
       <p id="instagram">
-        <img src="../img/icones/insta.png" alt="icone do instagram" />
+        <img src="../img/otimizado/insta.webp" alt="icone do instagram" />
         @ongsolidaria
       </p>
 
       <p>
-        <img src="../img/icones/local.png" alt="icone de localização" />
+        <img src="../img/otimizado/local.webp" alt="icone de localização" />
         <span>Teresópolis - Brasil</span>
       </p>
 
       <p>
-        <img src="../img/icones/telefone.png" alt="icone de um telefone fixo" />
+        <img
+          src="../img/otimizado/telefone.webp"
+          alt="icone de um telefone fixo"
+        />
         <span> (00) 99999-9999</span>
       </p>
 
       <p>contato@ong.org</p>
     </footer>
-<script src="https://cdn.jsdelivr.net/npm/inputmask/dist/inputmask.min.js"></script>
-<script type="module" src="../js/script.js"></script>
-
+    <script src="https://cdn.jsdelivr.net/npm/inputmask/dist/inputmask.min.js"></script>
+    <script type="module" src="../js/script.js"></script>
   </body>
 </html>

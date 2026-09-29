@@ -2,88 +2,88 @@ import { configurarFormulario } from "./formulario.js";
 
 export const paginas = {
   inicio: `
-     <h2>Quem somos?</h2>
-      <section id="inicio">
-        <img
-          id="inicio-img"
-          src="../img/images.jpg"
-          alt="Cachorro caramelo resgatado"
-        />
-        <p>
-          Somos uma organização sem fins lucrativos dedicada ao resgate, cuidado
-          e proteção de animais em situação de abandono. Nosso trabalho é
-          realizado por voluntários que acreditam que todo animal merece um lar
-          seguro, alimentação adequada e muito carinho. Além do resgate,
-          promovemos campanhas de conscientização sobre adoção responsável e
-          bem-estar animal.
-        </p>
-      </section>
-      <h2>Iniciativas</h2>
-      <section id="iniciativas">
-        <p>
-          Desenvolvemos ações que promovem o bem-estar animal e incentivam a
-          participação da comunidade na causa.
-        </p>
-        <ul>
-          <li>
-            <strong>Resgate Animal:</strong> acolhimento de animais abandonados
-            ou vítimas de maus-tratos.
-          </li>
-          <li>
-            <strong>Campanhas de Alimentação:</strong> arrecadação e
-            distribuição de ração para animais resgatados e famílias que cuidam
-            de animais em situação de risco.
-          </li>
-          <li>
-            <strong>Castração Solidária:</strong> campanhas para reduzir o
-            abandono e promover a saúde dos animais.
-          </li>
-        </ul>
-        <p id="adote"><strong>Adote!</strong></p>
-      </section>
+      <h2>Quem somos?</h2>
+        <section id="inicio">
+          <img
+            id="inicio-img"
+            src="../img/otimizado/images.webp"
+            alt="Cachorro caramelo resgatado"
+          />
+          <p>
+            Somos uma organização sem fins lucrativos dedicada ao resgate,
+            cuidado e proteção de animais em situação de abandono. Nosso
+            trabalho é realizado por voluntários que acreditam que todo animal
+            merece um lar seguro, alimentação adequada e muito carinho. Além do
+            resgate, promovemos campanhas de conscientização sobre adoção
+            responsável e bem-estar animal.
+          </p>
+        </section>
+        <h2>Iniciativas</h2>
+        <section id="iniciativas">
+          <p>
+            Desenvolvemos ações que promovem o bem-estar animal e incentivam a
+            participação da comunidade na causa.
+          </p>
+          <ul>
+            <li>
+              <strong>Resgate Animal:</strong> acolhimento de animais
+              abandonados ou vítimas de maus-tratos.
+            </li>
+            <li>
+              <strong>Campanhas de Alimentação:</strong> arrecadação e
+              distribuição de ração para animais resgatados e famílias que
+              cuidam de animais em situação de risco.
+            </li>
+            <li>
+              <strong>Castração Solidária:</strong> campanhas para reduzir o
+              abandono e promover a saúde dos animais.
+            </li>
+          </ul>
+          <p id="adote"><strong>Adote!</strong></p>
+        </section>
 
-      <section>
-        <h2>Como posso ajudar?</h2>
-        <ul id="ajuda">
-          <li>
-            <img src="../img/icones/doeemj.png" alt="Ícone de doação" />
-            <span
-              >Faça doações de ração, medicamentos ou materiais de
-              higiene.</span
-            >
-            <img src="../img/icones/doeemj.png" alt="Ícone de doação" />
-          </li>
-          <li>
-            <img
-              src="../img/icones/voluntarioemj.png"
-              alt="Ícone de voluntario"
-            />
-            <span>Seja um voluntário e participe das ações da ONG.</span>
-            <img
-              src="../img/icones/voluntarioemj.png"
-              alt="Ícone de voluntario"
-            />
-          </li>
-          <li>
-            <img src="../img/icones/adocaoemj.png" alt="Ícone de adoção" />
-            <span>Adote um animal e ofereça um novo lar.</span>
-            <img src="../img/icones/adocaoemj.png" alt="Ícone de adoção" />
-          </li>
-          <li>
-            <img
-              src="../img/icones/compartilhaemj.png"
-              alt="Ícone de compartilhamento"
-            />
-            <span
-              >Compartilhe nossas campanhas e ajude a divulgar a causa.</span
-            >
-            <img
-              src="../img/icones/compartilhaemj.png"
-              alt="Ícone de compartilhamento"
-            />
-          </li>
-        </ul>
-      </section>
+        <section>
+          <h2>Como posso ajudar?</h2>
+          <ul id="ajuda">
+            <li>
+              <img src="../img/otimizado/doeemj.webp" alt="Ícone de doação" />
+              <span
+                >Faça doações de ração, medicamentos ou materiais de
+                higiene.</span
+              >
+              <img src="../img/otimizado/voluntarioemj.webp" alt="Ícone de doação" />
+            </li>
+            <li>
+              <img
+                src="../img/otimizado/voluntarioemj.webp"
+                alt="Ícone de voluntario"
+              />
+              <span>Seja um voluntário e participe das ações da ONG.</span>
+              <img
+                src="../img/otimizado/voluntarioemj.webp"
+                alt="Ícone de voluntario"
+              />
+            </li>
+            <li>
+              <img src="../img/otimizado/adocaoemj.webp" alt="Ícone de adoção" />
+              <span>Adote um animal e ofereça um novo lar.</span>
+              <img src="../img/otimizado/adocaoemj.webp" alt="Ícone de adoção" />
+            </li>
+            <li>
+              <img
+                src="../img/otimizado/compartilhaemj.webp"
+                alt="Ícone de compartilhamento"
+              />
+              <span
+                >Compartilhe nossas campanhas e ajude a divulgar a causa.</span
+              >
+              <img
+                src="../img/otimizado/compartilhaemj.webp"
+                alt="Ícone de compartilhamento"
+              />
+            </li>
+          </ul>
+        </section>
       `,
 
   projetos: `
@@ -101,7 +101,7 @@ export const paginas = {
           >
           <img
             id="imagem-intro"
-            src="../img/icones/cachorrinho.png"
+            src="../img/otimizado/cachorrinho.webp"
             alt="desenho fofo de um cachorro"
           />
         </div>
@@ -115,7 +115,7 @@ export const paginas = {
             encontrarem um novo lar.
           </p>
           <img
-            src="../img/resgate.jpg"
+            src="../img/otimizado/resgate.webp"
             alt="Mulher segurando cachorro em meio a uma enchente"
           />
         </section>
@@ -128,7 +128,7 @@ export const paginas = {
             animais recebam os cuidados básicos necessários.
           </p>
           <img
-            src="../img/ração.jpg"
+            src="../img/otimizado/ração.webp"
             alt="Voluntário levando sacos de ração para dentro de uma sala"
           />
         </section>
@@ -141,7 +141,7 @@ export const paginas = {
             responsável da população de animais.
           </p>
           <img
-            src="../img/castração.jpg"
+            src="../img/otimizado/castração.webp"
             alt="Cachorro com manchinhas sendo cuidado por enfermeira"
           />
         </section>
@@ -154,17 +154,17 @@ export const paginas = {
             necessários para iniciar uma nova vida.
           </p>
           <img
-            src="../img/adoção.jpg"
+            src="../img/otimizado/adoção.webp"
             alt="Filhotes observando através de uma grade"
           />
         </section>
   `,
 
   cadastro: `
-        <section>
+          <section>
           <h2>Preencha seus dados</h2>
 
-          <form>
+          <form aria-label="Formulário de cadastro">
             <fieldset>
               <legend>Dados pessoais</legend>
               <label for="nome">Nome completo</label>
@@ -201,15 +201,15 @@ export const paginas = {
               />
               <label for="telefone">Telefone para contato</label>
               <input
-  type="tel"
-  id="telefone"
-  name="telefone"
-  placeholder="(00)00000-0000"
-  pattern="\\([0-9]{2}\\)[0-9]{5}-[0-9]{4}"
-  title="Formato: (00)00000-0000"
-  maxlength="14"
-  required
-/>
+                type="tel"
+                id="telefone"
+                name="telefone"
+                placeholder="(00)00000-0000"
+                pattern="\([0-9]{2}\)[0-9]{5}-[0-9]{4}"
+                title="Formato: (00)00000-0000"
+                maxlength="14"
+                required
+              />
             </fieldset>
             <fieldset>
               <legend>Endereço</legend>
@@ -272,7 +272,7 @@ export const paginas = {
                 placeholder="Escreva aqui sua observação ou mensagem para nossos voluntários."
               >
               </textarea>
-              <div id="mensagem-formulario"></div>
+              <div id="mensagem-formulario" aria-live="polite"></div>
 
               <button type="submit">Enviar cadastro</button>
             </fieldset>
@@ -295,6 +295,14 @@ function carregarPagina() {
 
   conteudo.innerHTML = paginas[rota] || paginas.inicio;
 
+  document.querySelectorAll("nav a").forEach((link) => {
+    link.removeAttribute("aria-current");
+
+    if (link.getAttribute("href") === `#${rota}`) {
+      link.setAttribute("aria-current", "page");
+    }
+  });
+
   if (rota === "cadastro") {
     configurarFormulario();
   }
@@ -302,3 +310,11 @@ function carregarPagina() {
 
 carregarPagina();
 window.addEventListener("hashchange", carregarPagina);
+
+const botaoContraste = document.getElementById("alto-contraste");
+
+if (botaoContraste) {
+  botaoContraste.addEventListener("click", () => {
+    document.body.classList.toggle("alto-contraste");
+  });
+}
