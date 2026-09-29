@@ -23,3 +23,4 @@ export function carregarDados() {
   document.getElementById("cidade").value = dados.cidade || "";
   document.getElementById("ajuda").value = dados.ajuda || "";
 }
+

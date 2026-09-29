@@ -6,7 +6,7 @@ export const paginas = {
         <section id="inicio">
           <img
             id="inicio-img"
-            src="../img/otimizado/images.webp"
+            src="/images.webp"
             alt="Cachorro caramelo resgatado"
           />
           <p>
@@ -46,39 +46,39 @@ export const paginas = {
           <h2>Como posso ajudar?</h2>
           <ul id="ajuda">
             <li>
-              <img src="../img/otimizado/doeemj.webp" alt="Ícone de doação" />
+              <img src="/doeemj.webp" alt="Ícone de doação" />
               <span
                 >Faça doações de ração, medicamentos ou materiais de
                 higiene.</span
               >
-              <img src="../img/otimizado/voluntarioemj.webp" alt="Ícone de doação" />
+              <img src="/voluntarioemj.webp" alt="Ícone de doação" />
             </li>
             <li>
               <img
-                src="../img/otimizado/voluntarioemj.webp"
+                src="/voluntarioemj.webp"
                 alt="Ícone de voluntario"
               />
               <span>Seja um voluntário e participe das ações da ONG.</span>
               <img
-                src="../img/otimizado/voluntarioemj.webp"
+                src="/voluntarioemj.webp"
                 alt="Ícone de voluntario"
               />
             </li>
             <li>
-              <img src="../img/otimizado/adocaoemj.webp" alt="Ícone de adoção" />
+              <img src="/adocaoemj.webp" alt="Ícone de adoção" />
               <span>Adote um animal e ofereça um novo lar.</span>
-              <img src="../img/otimizado/adocaoemj.webp" alt="Ícone de adoção" />
+              <img src="/adocaoemj.webp" alt="Ícone de adoção" />
             </li>
             <li>
               <img
-                src="../img/otimizado/compartilhaemj.webp"
+                src="/compartilhaemj.webp"
                 alt="Ícone de compartilhamento"
               />
               <span
                 >Compartilhe nossas campanhas e ajude a divulgar a causa.</span
               >
               <img
-                src="../img/otimizado/compartilhaemj.webp"
+                src="/compartilhaemj.webp"
                 alt="Ícone de compartilhamento"
               />
             </li>
@@ -101,7 +101,7 @@ export const paginas = {
           >
           <img
             id="imagem-intro"
-            src="../img/otimizado/cachorrinho.webp"
+            src="/cachorrinho.webp"
             alt="desenho fofo de um cachorro"
           />
         </div>
@@ -115,7 +115,7 @@ export const paginas = {
             encontrarem um novo lar.
           </p>
           <img
-            src="../img/otimizado/resgate.webp"
+            src="/resgate.webp"
             alt="Mulher segurando cachorro em meio a uma enchente"
           />
         </section>
@@ -128,7 +128,7 @@ export const paginas = {
             animais recebam os cuidados básicos necessários.
           </p>
           <img
-            src="../img/otimizado/ração.webp"
+            src="/ração.webp"
             alt="Voluntário levando sacos de ração para dentro de uma sala"
           />
         </section>
@@ -141,7 +141,7 @@ export const paginas = {
             responsável da população de animais.
           </p>
           <img
-            src="../img/otimizado/castração.webp"
+            src="/castração.webp"
             alt="Cachorro com manchinhas sendo cuidado por enfermeira"
           />
         </section>
@@ -154,7 +154,7 @@ export const paginas = {
             necessários para iniciar uma nova vida.
           </p>
           <img
-            src="../img/otimizado/adoção.webp"
+            src="/adoção.webp"
             alt="Filhotes observando através de uma grade"
           />
         </section>
@@ -318,3 +318,4 @@ if (botaoContraste) {
     document.body.classList.toggle("alto-contraste");
   });
 }
+
